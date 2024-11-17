@@ -1,2 +1,7 @@
-# supertux-classic-website
-Just a website made with the theme of the SuperTux Classic. (this website was made for a homework)
+# SuperTux Classic Website (not official)
+Hello, this is the SuperTux Classic website entirely made by DaYoshiistesting.
+
+It is based on the original [SuperTux website](https://www.supertux.org/index.html), on the [SuperTux Classic's source code](https://github.com/Alzter/SuperTux-Classic) and on the actual [website of SuperTux Classic](https://alzter-s.itch.io/supertux-classic).
+
+# Other stuff I've did
+I was also the main developper of [SuperTuxKart 0.6.3](https://github.com/DaYoshiistesting/stk-code-0.6.3), that I've abandonned due to personnal reasons.
