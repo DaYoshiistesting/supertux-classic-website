@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Head's initialisation (logo + page's name) -->
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperTux Classic | Main Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="Pictures/icon.png"/>
+</head>
+<body>
+    <div class="page">
+        <div id="title">
+            <h1><a href="#"><img src="Pictures/title.png" alt="SuperTux Classic"/></a></h1>
+    <nav>
+    <ul class="menu">
+        <li><a href="#">Main Page</a></li>
+        <li><a href="download.html">Downloads</a></li>
+        <li><a href="sshots.html">Screenshots</a></li>
+        <li><a href="news/1.html">News</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="developers.html">Developers</a></li>
+    </ul>
+    </nav>
+    </div>
+    <div id="pagebox">
+        <aside class="sshots">
+            <h3>Screenshots</h3>
+            <a href="Pictures/sshots/sshot1.png"><img class="sshot" alt="Pictures/sshots/sshot1.png" src="https://raw.githubusercontent.com/DaYoshiistesting/SuperTux-Classic-SSHOTS/refs/heads/main/sshot1.png" width="300" height="170"></a>
+            <a href="Pictures/sshots/sshot8.png"><img class="sshot" alt="Pictures/sshots/sshot8.png" src="https://raw.githubusercontent.com/DaYoshiistesting/SuperTux-Classic-SSHOTS/refs/heads/main/sshot8.png" width="300" height="170"></a>
+            <a href="Pictures/sshots/sshot5.jpg"><img class="sshot" alt="Pictures/sshots/sshot5.jpg" src="https://raw.githubusercontent.com/DaYoshiistesting/SuperTux-Classic-SSHOTS/refs/heads/main/sshot5.jpg" width="300" height="150"></a>
+            <a href="sshots.html">More Screenshots</a>
+        </aside>
+    <div id="pagebody">
+    <h2>What is SuperTux Classic?</h2>
+        <ul></ul><p></p> <!-- Very ugly hack, but to have a good space I have to keep it, to keep the settings of the OG Website. -->
+            SuperTux Classic is a 2D platformer game where you play as a penguin in Antarctica.
+            <br>
+            <br>
+            It is a complete remaster of the Milestone 1 version of SuperTux (versions 0.1.0 - 0.1.4) 
+            created from the ground up in the Godot engine! 
+            <br>
+            <br>
+            It features enhanced graphics, sounds, music, and gameplay, but retains the core design 
+            reminiscent of classic platformer titles such as Super Mario Bros.
+            <br>
+            <br>
+            The game is completely open source, being licensed under the GNU GPL.
+            This means you can do whatever you like with the game's source files (under the license's conditions), 
+            whether that's redistributing the game, making mods, re-skins, custom levels, you name it!
+        </p>
+        <hr>
+        <section class="news"><div class="datenews"><p>Sep 4, 2023</p></div>
+            <h2><u>SuperTux Classic v0.4.2 is out!</u></h2>
+                <ul></ul>
+                    <h3>Fix game crash when trying to fight Nolok.</h3>
+						<p></p>
+							Fixed a bug where the final World 1 level "The Mighty Nolok" 
+							crashes when you try to access it, making it impossible to beat the game.
+						   (Removed Nolok's diabolical traps which take advantage of<br>
+							Tux's ultra-fast speed 🤣).
+        </section>
+        <hr>
+        <section class="news"><div class="datenews"><p>Sep 1, 2023</p></div>
+        <h2><u>SuperTux Classic v0.4.1 is available!</u></h2>
+            <ul></ul><p></p>
+                <h3>Controller support is here! (And other minor fixes).</h3>
+                    <p></p>
+                        <b>Other features of this release include:</b>
+                            <ul>
+								<li><b>Controller support</b> (everyone go thank <a href="https://github.com/tulpenkiste">Tulpenkiste</a> for adding this, she is the best!).</li>
+								<li>Rebindable controller controls! (You can adjust what face buttons / joysticks do what).</li>
+                                <li>Updating the Android version to Android 13 (we changed the Android Target SDK from 32 to 33) 
+                                <br>(Google mandated this change).</li>
+                                <li>Some minor fixes.</li>
+                            </ul>
+                <br>
+				<b>To do for the next release:</b>
+                    <ul>
+                        <li>Optimise the game for mobile devices (currently it runs very slowly on Android).</li>
+                        <li>Can somebody please help me do this? I don't really have much free time to work on this game atm...</li>
+                        <li>Add controller support to the level editor via use of a cursor, probably.</li>
+                        <li>Finish adding the Ice Dragon (Yoshi's clone).</li>
+                        <li>Bonus Island 1 boss fight maybe????</li>
+                        <li>Mod support also maybe????</li>
+                    </ul>	
+        </section>
+        <hr>
+        <section class="news"><div class="datenews"><p>Jun 14, 2023</p></div>
+        <h2><u>SuperTux Classic v0.4.0 is finally out!</u></h2>
+            <ul></ul>
+                <h3>The level editor is finally here!</h3>
+                <p>
+                <b>An all-new, custom-built level editor has been added into SuperTux Classic!</b>
+                <br>
+                You can now make your own SuperTux Classic levels straight from within the game itself!
+                <br>
+                This editor is fully featured and supports all features within the game, with a few exceptions*.
+                <br>
+                <a href="Pictures/0_4_EDITOR.png"><img class="sshot" src="Pictures/0_4_EDITOR.png" width="700" height="380"/></a>
+                <br>
+                The editor was designed to be <b>as intuitive as possible to use</b>. 
+                <br>
+                If you would like to give feedback or suggestions on its design for future improvement, please join the 
+                <a href="https://discord.com/invite/aJKXpakVFR">SuperTux Classic Discord Server</a>.
+                <br>
+                <br>
+                The editor is also <b>completely usable on mobile devices</b>, with relevant adjustments being made to support touch controls.
+                <br>
+				</p>
+                <b>New features also include:</b>
+                    <ul>
+                        <li>A toggle for auto-run (you can choose to walk).</li>
+                        <li>A huge restructuring of the game's internals to make way for the level editor.</li>
+                        <li>Many bug fixes and optimisations (and probably new bugs to fix, given by the complexity of the new features 😬).</li>
+                    </ul>
+                <br>
+                *The Level Editor does not currently support boss fights, teleporters in world maps, or scrolling text scenes for intros/outros of worlds.
+                <br>
+                <br>
+                Happy SuperTuxing!! Enjoy the level editor - I can't wait to see what levels are made with it!
+        </section>
+        <hr>
+        <section class="news"><div class="datenews"><p>May 27, 2023</p></div>
+        <h2><u>SuperTux Classic v0.3.5 is there!</u></h2>
+            <ul></ul>
+                <h3>Bonus Island I is here!</h3>
+                    <a href="Pictures/0_3_5_BONUS_ISLAND_I.png"><img class="sshot" src="Pictures/0_3_5_BONUS_ISLAND_I.png" width="700" height="380"/></a>
+                        <br>
+                        There are 24 new levels you can play in Bonus Island I! Just watch out for the fish! And the lava! And maybe those spinning flame orbs!
+                        <br>
+                        <br>
+                        Huge thanks to Tlaloc1 for helping me port over these levels.
+                        <br>
+                        Have fun!
+        </section>
+        <hr>
+        <section class="news"><div class="datenews"><p>Apr 25, 2023</p></div>
+        <h2><u>SuperTux Classic v0.3.4 is out!</u></h2>
+            <ul></ul>
+                <h3>This is mainly a tweak / bugfix release.</h3>
+                    <p></p>
+                        <b>This release finalizes the mobile support for SuperTux Classic. The game is now fully playable on mobile devices.</b>
+                        <br>
+                        <br>
+                        This required changing the engine version of the game from Godot 3.4.4 to Godot 3.5.2, which brought with it a lot of bugs which needed to be fixed for the game to be stable again.
+                        <br>
+                        <br>
+                        You can get SuperTux Classic for Android on the <a href="https://play.google.com/store/apps/details?id=org.godotengine.supertuxclassic">Google Play Store</a>! (As well as simply downloading the APK).
+        </section>
+        <hr>
+        <p>Read more news posts <a href="news/1.html">in the news section</a>.</p>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
+
+<!-- End of file. -->
